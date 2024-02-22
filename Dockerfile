@@ -12,4 +12,4 @@ RUN javac Main.java
 
 CMD ["java","Main"]
 
-EXPOSE 8009
+EXPOSE 8080
