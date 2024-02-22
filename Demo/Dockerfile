@@ -5,7 +5,7 @@ FROM openjdk:11
 WORKDIR /app
 
 # Copy the JAR file into the container
-COPY . 
+COPY Main.java
 
 # Command to run the Java application
 RUN javac Main.java
