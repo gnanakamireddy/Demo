@@ -9,5 +9,5 @@ COPY .
 
 # Command to run the Java application
 RUN javac Main.java
-
+CMD ["java","Main"]
 EXPOSE 80
